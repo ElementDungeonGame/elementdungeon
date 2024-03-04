@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <script src="gathering.js" defer></script>
+  
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+    <body>
+
+
+    <div class="Title" font="">
+        <h1 style=text-align:center>Element Dungeon</h1>
+    </div>
+
+    <div id="Farming">
+        <label>Press (f) to farm</label>
+        <p id="CropCount">Crops: 0</p>
+    </div>
+
+    <div id="Woodcutting">
+        <label>Press (l) to lumber</label>
+        <p id="WoodCount">Wood: 0</p>
+    </div>
+
+    <div id="Mining">
+        <label>Press (m) to mine</label>
+
+        <p id="StoneCount">Stone: 0</p>
+        <p id="MetalCount">Metal: 0</p>
+        <p id="GemCount">Gems: 0</p>
+    </div>
+
+    <div id="WoodCrafting">
+        <button onclick="craftWoodenHoe()">Craft Wooden Hoe</button>
+        <button onclick="craftWoodenAxe()">Craft Wooden Axe</button>
+        <button onclick = "craftWoodenPickaxe()">Craft Wooden Pickaxe</button>
+    </div>
+
+    <div id="StoneCrafting">
+        <button onclick = "craftStoneHoe()">Craft Stone Hoe</button>
+        <button onclick = "craftStoneAxe()">Craft Stone Axe</button>
+        <button onclick = "craftStonePickaxe()">Craft Stone Pickaxe</button>
+    </div>
+
+    <div id="MetalCrafting">
+        <button onclick = "craftMetalHoe()">Craft Metal Hoe</button>
+        <button onclick = "craftMetalAxe()">Craft Metal Axe</button>
+        <button onclick = "craftMetalPickaxe()">Craft Metal Pickaxe</button>
+    </div>
+
+    <div id="ToolList">
+        <p id="WoodenHoeCount">Wooden Hoe: No</p>
+        <p id="StoneHoeCount">Stone Hoe: No</p>
+        <p id="MetalHoeCount">Metal Hoe: No</p>
+        <p id="WoodenAxeCount">Wooden Axe: No</p>
+        <p id="StoneAxeCount">Stone Axe: No</p>
+        <p id="MetalAxeCount">Metal Axe: No</p>
+        <p id="WoodenPickaxeCount">Wooden Pickaxe: No</p>
+        <p id="StonePickaxeCount">Stone Pickaxe: No</p>
+        <p id="MetalPickaxeCount">Metal Pickaxe: No</p>
+    </div>
+
+    <div id="RandomUpgradeShop">
+        <button onclick = "buyRandomCropUpgrade()">Buy Random Crop Upgrade</button>
+        <button onclick = "buyRandomWoodUpgrade()">Buy Random Wood Upgrade</button>
+        <button onclick = "buyRandomStoneUpgrade()">Buy Random Stone Upgrade</button>
+        <button onclick = "buyRandomMetalUpgrade()">Buy Random Metal Upgrade</button>
+    </div>
+
+    <div id="Dungeon">
+        <h4>---------FIGHTING---------</h4>
+        <label id="lvl">Dungeon Level: 0</label><br>
+        <label id="stage">Current Stage: 0/4</label><br>
+        <label id="enemyLabel">Current Enemy: Dark Goblin</label><br>
+        <label id="enemyStats">| HP: 69 | DMG: 420 | BLK: 10 |</label><br>
+        <button id="attack">Attack (q) |0x DMG| </button>
+        <button id="blk">Block (e) |0x BLK|</button>
+        <button id="charge">Charge (r)</button><br>
+        <label id="chargeComment">| WARNING! You haven't charged! |</label><br>
+        <label id="atkCommment">| ur mom took 69 DMG while you took 420 DMG |</label><br>
+        <label id="yourStat">| Your HP: 100, Your DMG: 69, Your BLK: 420 |</label>
+    </div>
+
+    </body>
+</html> 

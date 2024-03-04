@@ -1,0 +1,43 @@
+#Farming{
+    position:absolute;
+    top: 250px;
+    left: 10px;
+}
+#Woodcutting{
+    position:absolute;
+    top:250px;
+    left:160px;
+}
+#Mining{
+    position:absolute;
+    top:250px;
+    left:310px;
+}
+
+#StoneCrafting{
+    position:absolute;
+    top:115px;
+}
+
+#MetalCrafting{
+    position:absolute;
+    top:150px;
+}
+
+#ToolList{
+    position:absolute;
+    top:65px;
+    left:500px;
+}
+
+#RandomUpgradeShop{
+    position:absolute;
+    top:450px;
+    left:500px;
+        
+}
+
+#Dungeon{
+    position:absolute;
+    top:450px;
+}

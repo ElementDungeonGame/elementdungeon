@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Text on Button Click</title>
+</head>
+<body>
+
+<p id="myText">Initial Text</p>
+<button onclick="updateText()">Click me</button>
+
+<script>
+  // Define a variable
+  let updatedText = "New Text";
+
+  // Function to update text content
+  function updateText() {
+    // Get the element by its ID
+    let myTextElement = document.getElementById("myText");
+
+    // Update the text content (thats what we did last time for the hackathon) this code works its just that it doesnt work for the actual thing
+    myTextElement.textContent = updatedText;
+    // oh u mean in script.js
+    //ye
+  }
+</script>
+
+</body>
+</html>
