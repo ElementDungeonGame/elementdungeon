@@ -17,7 +17,7 @@
     display:none;
 }
 
-#WoodCrafting{
+.WoodCrafting{
     position:absolute;
     top:90px;
     border: 2px solid black;
@@ -25,9 +25,11 @@
     display:flex;
     justify-content: center;
     align-items: center;   
+    display:none;
+
 }
 
-#StoneCrafting{
+.StoneCrafting{
     position:absolute;
     top:140px;
     border: 2px solid black;
@@ -35,9 +37,11 @@
     display:flex;
     justify-content: center;
     align-items: center;   
+    display:none;
+
 }
 
-#MetalCrafting{
+.MetalCrafting{
     position:absolute;
     top:190px;
     border: 2px solid black;
@@ -45,6 +49,8 @@
     display:flex;
     justify-content: center;
     align-items: center;   
+    display:none;
+
 }
 
 #ToolList{

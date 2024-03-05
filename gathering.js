@@ -1,8 +1,6 @@
 //count increases the amount of materials gathered + amount gathered
 //skill increases the chance to get a bulk drop for materials while gathering aside from gems
 
-//arron is white
-//arron is white 2
 
 // ========== VARIABLES ==========
 
@@ -11,13 +9,13 @@ var farmingSkill = 0;
 var hoeCount = 40;
 
 var wood = 0;
-var lumberSkill = 40;
+var lumberSkill = 0;
 var axeCount = 40;
 
 var stone = 0;
 var metal = 0;
 var gems = 0;
-var miningSkill = 40;
+var miningSkill = 0;
 var pickaxeCount = 40;
 
 var currentState = 0;
