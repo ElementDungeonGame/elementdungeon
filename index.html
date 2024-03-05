@@ -2,13 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <script src="gathering.js" defer></script>
-    <script src="leveling.js" defer></script>
-
-  
-
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
 
     <body>
@@ -16,29 +10,27 @@
 
     <div class="Title" font="">
         <h1 style=text-align:center>Element Dungeon</h1>
-    </div>
 
-    <div class="Gathering">
 
-        <div id="Farming">
-            <label>Press (f) to farm</label>
+
+        <div class="Farming">
+            <label id="FarmLabel">Press (f) to farm</label>
             <p id="CropCount">Crops: 0</p>
         </div>
 
-        <div id="Woodcutting">
-            <label>Press (l) to lumber</label>
+        <div class="Woodcutting">
+            <label id="LumberLabel">Press (l) to lumber</label>
             <p id="WoodCount">Wood: 0</p>
         </div>
 
-        <div id="Mining">
-            <label>Press (m) to mine</label>
-
+        <div class="Mining">
+            <label id="MineLabel">Press (m) to mine</label>
             <p id="StoneCount">Stone: 0</p>
             <p id="MetalCount">Metal: 0</p>
             <p id="GemCount">Gems: 0</p>
         </div>
 
-    </div>
+
 
     <div id="WoodCrafting">
         <button onclick="craftWoodenHoe()">Craft Wooden Hoe</button>
@@ -94,6 +86,7 @@
         <label id="atkCommment">| ur mom took 69 DMG while you took 420 DMG |</label><br>
         <label id="yourStat">| Your HP: 100, Your DMG: 69, Your BLK: 420 |</label>
     </div>
-
+    <script src="gathering.js" defer></script>
+    <script src="leveling.js" defer></script>
     </body>
 </html> 

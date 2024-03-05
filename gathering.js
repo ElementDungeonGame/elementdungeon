@@ -50,11 +50,22 @@ var randomMetalUpgrade = false;
 
 // ========== GATHERING ==========
 
-document.getElementById("CropCount").textContent = "Crops: " + crops;
+document.getElementById("CropCount").textContent = "Crops: " + crops; 
+
+//these will be hidden until the player unlocks them
 document.getElementById("WoodCount").textContent = "Wood: " + wood;
+
+
 document.getElementById("StoneCount").textContent = "Stone: " + stone;
+
+
 document.getElementById("MetalCount").textContent = "Metal: " + metal;
+
+
 document.getElementById("GemCount").textContent = "Gems: " + gems;
+
+
+
 document.addEventListener("keypress",function(event) {
     var key = event.key;
     if(key == 'f' || key == 'l' || key == 'm') {
