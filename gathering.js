@@ -90,6 +90,7 @@ function farm(){
     if (randomCropUpgrade){
         rollRandomCrop();
     }
+    levelUp(1); //TEMP VALUE
     
 }
 
@@ -99,6 +100,7 @@ function lumber(){
     if (randomWoodUpgrade){
         rollRandomWood();
     }
+    levelUp(1); //TEMP VALUE
 
 }
 
@@ -106,6 +108,7 @@ function mine(){
     var mineChance = getRandom(11);
     if (mineChance <= 6){
         stone += 1 + miningSkill;
+        levelUp(1); //TEMP VALUE
         if (randomStoneUpgrade){
             rollRandomStone();
         }
@@ -113,6 +116,7 @@ function mine(){
     }
     else if (mineChance <= 9){
         metal += 1 + miningSkill;
+        levelUp(1); //TEMP VALUE
         if (randomMetalUpgrade){
             rollRandomMetal();
         }
@@ -120,6 +124,7 @@ function mine(){
     }
     else if (mineChance == 10){
         gems += 1 + miningSkill;
+        levelUp(1); // TEMP VALUE
     }
 
     document.getElementById("StoneCount").textContent = "Stone: " + stone;

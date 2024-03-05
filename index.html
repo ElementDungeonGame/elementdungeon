@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <script src="gathering.js" defer></script>
+    <script src="leveling.js" defer></script>
+
   
 
     <link rel="stylesheet" href="style.css">
@@ -16,22 +18,26 @@
         <h1 style=text-align:center>Element Dungeon</h1>
     </div>
 
-    <div id="Farming">
-        <label>Press (f) to farm</label>
-        <p id="CropCount">Crops: 0</p>
-    </div>
+    <div class="Gathering">
 
-    <div id="Woodcutting">
-        <label>Press (l) to lumber</label>
-        <p id="WoodCount">Wood: 0</p>
-    </div>
+        <div id="Farming">
+            <label>Press (f) to farm</label>
+            <p id="CropCount">Crops: 0</p>
+        </div>
 
-    <div id="Mining">
-        <label>Press (m) to mine</label>
+        <div id="Woodcutting">
+            <label>Press (l) to lumber</label>
+            <p id="WoodCount">Wood: 0</p>
+        </div>
 
-        <p id="StoneCount">Stone: 0</p>
-        <p id="MetalCount">Metal: 0</p>
-        <p id="GemCount">Gems: 0</p>
+        <div id="Mining">
+            <label>Press (m) to mine</label>
+
+            <p id="StoneCount">Stone: 0</p>
+            <p id="MetalCount">Metal: 0</p>
+            <p id="GemCount">Gems: 0</p>
+        </div>
+
     </div>
 
     <div id="WoodCrafting">
@@ -52,6 +58,10 @@
         <button onclick = "craftMetalPickaxe()">Craft Metal Pickaxe</button>
     </div>
 
+    <div class="PlayerLevels">
+        <h2 id="Level">Level: 0</h2>
+    </div>
+
     <div id="ToolList">
         <p id="WoodenHoeCount">Wooden Hoe: No</p>
         <p id="StoneHoeCount">Stone Hoe: No</p>
@@ -64,7 +74,7 @@
         <p id="MetalPickaxeCount">Metal Pickaxe: No</p>
     </div>
 
-    <div id="RandomUpgradeShop">
+    <div class="RandomUpgradeShop">
         <button onclick = "buyRandomCropUpgrade()">Buy Random Crop Upgrade</button>
         <button onclick = "buyRandomWoodUpgrade()">Buy Random Wood Upgrade</button>
         <button onclick = "buyRandomStoneUpgrade()">Buy Random Stone Upgrade</button>
